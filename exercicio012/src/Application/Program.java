@@ -1,10 +1,10 @@
 /*
-Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo.
+Façaum programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo.
 Calcule e mostre o comprimento da hipotenusa.
  */
 package Application;
 
-import entities.hypotenuse;
+import Entities.hypotenuse;
 
 import java.util.Locale;
 import java.util.Scanner;
