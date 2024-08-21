@@ -24,7 +24,6 @@ public class Program {
 
         System.out.println(hypot);
 
-
-
+        sc.close();
     }
 }
