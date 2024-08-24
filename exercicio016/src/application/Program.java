@@ -18,15 +18,15 @@ public class Program {
         System.out.println("Valor do Raio: ");
         double raio = sc.nextDouble();
 
-        double c = calculadora.circunferencia(raio);
+        double circunferencia = calculadora.circunferencia(raio);
 
-        double v =  calculadora.circunferencia(raio);
+        double volume =  calculadora.circunferencia(raio);
 
-        System.out.printf("Circunferencia: %.2f%n", c);
-        System.out.printf("Volume: %.2f%n",v);
+        System.out.printf("Circunferencia: %.2f%n", circunferencia);
+        System.out.printf("Volume: %.2f%n",volume);
         System.out.printf("PI: %.2f%n",calculadora.PI);
 
 
-        sc.close();cccccc
+        sc.close();
     }
 }
